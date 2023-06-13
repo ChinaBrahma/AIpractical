@@ -1,0 +1,59 @@
+--------------------------------------------------------------
+This is the commands for running prolog program written here.
+--------------------------------------------------------------
+
+1. sum(m,n).
+	Eg:- sum(4,5).
+	output:- 9
+		yes.
+2. max(m,n,x).
+	Eg:- max(5,4,x).
+	output:- x=8
+		yes.
+3. fact(n,F).
+	Eg:- fact(4,F).
+	output:- F=24.
+4. fib(F,n).
+	Eg:- fib(F,6).
+	output:- F=8.
+5.insert(n,[list],M).
+	Eg:- insert(4,[2,3,4,5,6,7,4,8],M).
+	Output:- M= [5|_]
+		yes.
+6.delte(n,[list],R).
+	Eg:- delte(3,[3,4,6,5,7,1,8],R).
+	Output:- R= [3,4,5,7,1,8].
+7.daltob(n,[list],R).
+	Eg:- daltob(3,[1,2,3,4,5,6,7],R).
+	output:- R= [1,3,5,6,7].
+8. join([list1],[list2],R).
+	Eg:- join([1,2,3,4],[5,6,7,8],R).
+	Output:- R = [1,2,3,4,5,6,7,8].
+9. palind([stringList]).
+	Eg:- palind([s,e,i,e,s]).
+	Output:- palindrome
+		true.
+10. max(m,n,Max).
+	Eg:- max(9,5,Max).
+	Output:- Max = 9.
+11. maxlist([list],Max).
+	Eg:- maxlist([1,3,2,5,6,3,7],Max).
+	Output:- Max= 7.
+12. sumlist([list],Sum).
+	Eg:- sumlist([1,3,2,4],Sum).
+	output:- Sum = 10.
+13. odd_even([list]).
+	Eg:- odd_even([1,2,4,5,6,7]).
+	Output:- true--> even.
+14. reverse([list],R).
+	Eg:- reverse([4,5,6,7,3],R).
+	Output:- R = [3,7,6,5,4].
+15. maxlist([list],M).
+	Eg:- maxlist([1,23,4,5,6],M).
+	Output:- M= 23.
+16. gcd(m,n).
+	Eg:- gcd(27,81).
+	Output:- GCD of two numbers is 27
+		true.
+--------------------------------------------------------------------
+The output of semantic network program has not been mentioned as it is not compiled.
