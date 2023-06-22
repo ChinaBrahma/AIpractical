@@ -8,7 +8,7 @@ This is the commands for running prolog program written here.
 		yes.
 2. max(m,n,x).
 	Eg:- max(5,4,x).
-	output:- x=8
+	output:- x=5
 		yes.
 3. fact(n,F).
 	Eg:- fact(4,F).
